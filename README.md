@@ -1,2 +1,2 @@
 # jglowaty.github.io
-It's my first repository
+It's my personal website
