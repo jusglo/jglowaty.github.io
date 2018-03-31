@@ -1,2 +1,2 @@
 # jglowaty.github.io
-It's my personal website
+It's project of my personal website - to get that first programming job!
