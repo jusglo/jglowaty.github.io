@@ -1,0 +1,85 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.topbar{
+    position:fixed;
+    left:0;
+    right:0;
+    background:grey;
+    z-index:3;
+}
+
+.hero{
+    padding:210px;
+    background-image: url(../images/hero-background-city.jpg);
+    background-size: cover;
+    background-attachement: fixed;
+    height: 100vh;
+    position:relative
+}
+
+h1{
+    text-align:center;
+}
+
+.navigation-list-item{
+    display:inline-block
+}
+
+
+.navigation{
+    float:right;
+}
+
+.logo{
+    float:left;
+    width: 200px;
+    height: 200px;
+}
+
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.topbar{
+    background: lightgrey;
+    height:200px;
+    z-index:20;
+}
+
+
+.feature{
+float:left;
+width: 50%
+}
+
+
+.feature-icon-container{
+padding-top:17px;
+width: 40px;
+float: left;
+text-align:center }
+
+
+.feature-description {
+    width: calc(100% - 40px);
+float: left;
+}
+
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%)
+
+}
+
+.cta-buttons{
+    text-align:center;
+}
